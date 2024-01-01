@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Urban Revival Official</title>
+<link href="styles.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('images/Hamburger Dropdown On.png','images/Logo On.png','images/Timeline_On.png','images/Podcast_On.png','images/Aboutus_On.png','images/1868 On.png','images/1877 On.png','images/1889 On.png','images/1910 On.png')">
+
+
+	
+<header>
+	
+	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td width="50%" class="upperlogo"><a href="index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Logo','','images/Logo On.png',1)"><img src="images/Logo Off.png" alt="" width="200" height="61" id="Logo"></a></td>
+      <td width="50%">
+		
+		  <ul>
+		  
+			<li><a href="#">RESEARCH &#x25BE;</a>
+			  
+			  	<ul class="dropdown">
+				
+					<li><a href="timeline.html">TIMELINE</a></li>
+					<li><a href="podcast.html">PODCAST</a></li>
+					<li><a href="citations.html">CITATIONS</a></li>
+				
+				</ul>
+				
+			</li>
+			  
+			<li><a href="#">IN THE FIELD &#x25BE;</a>
+			  
+			  	<ul class="dropdown">
+				
+					<li><a href="documentary.html">DOCUMENTARY</a></li>
+					<li><a href="pineridge.html">PINE RIDGE</a></li>
+					<li><a href="rosebud.html">ROSEBUD</a></li>
+				
+				</ul>
+			  
+			</li>
+			  
+			<li><a href="#">OUR TEAM &#x25BE;</a>
+			  
+			  	<ul class="dropdown">
+				
+					<li><a href="about us.html">ABOUT US</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				
+				</ul>
+			  
+			</li>		  
+			
+		  </ul>
+		
+		</td>
+    </tr>
+  </tbody>
+</table>
+
+	
+</header>
+	
+<div class="container">
+	<main>
+		<img src="images/UnderConstruction.png" alt="" width="1440" height="720" class="undercon"/> 
+	</main>
+</div>
+	
+<footer>
+	
+	<img src="images/Logo Off.png" alt="" width="200" height="61" class="lowerlogo"/>
+	
+</footer>
+	
+	
+</body>
+</html>

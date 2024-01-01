@@ -1,0 +1,597 @@
+@charset "utf-8";
+header {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    background-color: #FAF9F6;
+}
+.logo {
+    margin-left: 100px;
+}
+.buttons {
+    margin-left: 374px;
+}
+.history {
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+h1 {
+    margin-left: 100px;
+    margin-top: 50px;
+    font-family: Impact, Gotham;
+    margin-bottom: 50px;
+}
+
+h2 {
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+footer {
+    background-color: #FAF9F6;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+podcasthead {
+}
+h3 {
+    font-family: Impact, Gotham;
+}
+.audio {
+    margin-top: 25px;
+}
+
+
+
+
+.container {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.historyimages {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.historyspacing {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.mission {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.historytext {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+    padding-left: auto;
+    padding-right: auto;
+}
+#1868 {
+    display: block;
+    margin-left: 48px;
+    margin-right: 24px;
+}
+#1910 {
+    display: block;
+    margin-left: 24px;
+    margin-right: 48px;
+}
+.lowerlogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#1877 {
+    display: block;
+    margin-right: 24px;
+    margin-left: 24px;
+}
+#1889 {
+    margin-left: 24px;
+    display: block;
+    margin-right: 24px;
+}
+
+
+
+
+.biostext {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-left: 50px;
+    overflow-y: visible;
+    display: inherit;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    text-align: justify;
+}
+
+
+.bios {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+.contactpod {
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+
+#tylan {
+    border-color: #FAF9F6;
+    border-radius: 5px;
+
+}
+#jack {
+    border-radius: 5px;
+    border-color: #FAF9F6;
+}
+#aliyah {
+    border-radius: 5px;
+	border-color: #FAF9F6;
+}
+#grady {
+    border-radius: 5px;
+	border-color: #FAF9F6;
+}
+.cites {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: block;
+}
+.timecast {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: block;
+    width: 300px;
+    text-align: justify;
+}
+.podcast {
+    border-radius: 10px;
+}
+.indeximg {
+    border-radius: 15px;
+}
+.scroll {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    max-height: 720px;
+    visibility: visible;
+    overflow-y: scroll;
+    min-height: 720px;
+    overflow-x: auto;
+    float: left;
+}
+.expand {
+    display: block;
+}
+
+dropdown {
+    padding: 0;
+    margin: 0;
+    font-family: Impact, Gotham;
+    font-weight: bolder;
+}
+
+ul {
+	list-style: none;
+	text-align: center;
+}
+
+ul li {
+	display: inline-block;
+	position: relative;
+}
+
+ul li a {
+	display: block;
+	padding: 20px 25px;
+	font-size: 16px;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+}
+
+ul li ul.dropdown li {
+	display: block;
+	background: #FAF9F6;
+	margin: 2px 0px;
+}
+
+ul li ul.dropdown {
+	width: auto;
+	background: #FAF9F6;
+	position: absolute;
+	z-index: 999;
+	display: none;
+}
+
+ul li a:hover {
+	background: #FFF;
+}
+
+ul li:hover ul.dropdown {
+	display: block;
+}
+.upperlogo {
+    /* [disabled]float: left; */
+    padding-left: 150px;
+}
+
+.historyimages {
+	border-radius: 5px;
+    border-color: #FAF9F6;
+}
+.rosebudimg {
+    border-radius: 15px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+td li a {
+    text-decoration: none;
+    font-family: Impact, Gotham;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    list-style: none;
+    color: #000000;
+}
+.timelinegif {
+}
+.undercon {
+}
+.pineridge {
+}
+.historyspacingtab {
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+    overflow-y: hidden;
+}
+.biostab {
+    width: 0px;
+    height: 0px;
+    visibility: hidden;
+    overflow-y: hidden;
+}
+.timelinetext {
+    display: inherit;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    padding-left: 50px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: justify;
+}
+.biosmobile {
+    visibility: hidden;
+    overflow-y: hidden;
+    width: 0px;
+    height: 0px;
+}
+.biostables {
+}
+.contactshown {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+}
+.podtext {
+}
+.timeline {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Tablet View*/
+@media (min-width: 415px) and (max-width: 1024px){
+
+.upperlogo {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+    padding-left: 50px;
+}
+.biostext {
+    display: block;
+    font-size: small;
+}
+.indeximg {
+    width: 760px;
+    height: 380px;
+}
+.mission {
+    font-size: small;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 25px;
+}
+.cites {
+    font-size: small;
+}
+.historytext {
+    font-size: small;
+}
+.container {
+    max-width: 768px;
+}
+.podcast {
+    width: 450px;
+    height: 360px;
+}
+td li a {
+    font-size: small;
+}
+.timecast {
+    font-size: small;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 200px;
+    display: block;
+}
+.timelinegif {
+    width: 450px;
+    height: 360px;
+    display: block;
+}
+.undercon {
+    width: 760px;
+    height: 380px;
+}
+.rosebudimg {
+    width: 720px;
+    height: 360px;
+}
+.historyspacing {
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+    overflow-y: hidden;
+}
+.historyspacingtab {
+    width: auto;
+    height: auto;
+    overflow-y: visible;
+    visibility: visible;
+}
+.timelinetext {
+    font-size: small;
+}
+.biosmobile {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*Mobile View*/
+@media (max-width: 414px){
+.upperlogo {
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+.indeximg {
+    width: 380px;
+    height: 190px;
+}
+.mission {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+.historyspacingtab {
+    font-size: 10px;
+    width: auto;
+    height: auto;
+    overflow-y: visible;
+    visibility: visible;
+}
+.historyspacing {
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+    overflow-y: hidden;
+}
+td li a {
+    font-size: x-small;
+}
+.rosebudimg {
+    width: 380px;
+    height: 190px;
+}
+h1 {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.biosmobile {
+    visibility: visible;
+    overflow-y: visible;
+    width: auto;
+    height: auto;
+}
+.bios {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+#tylan {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 0px;
+    height: 0px;
+    visibility: hidden;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+#jack {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 0px;
+    height: 0px;
+    visibility: hidden;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+#grady {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 0px;
+    height: 0px;
+    visibility: hidden;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+#aliyah {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 0px;
+    height: 0px;
+    visibility: hidden;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.biostext {
+    overflow-y: hidden;
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+}
+.biostables {
+    width: 0px;
+    height: 0px;
+    overflow-y: hidden;
+    visibility: hidden;
+}
+.historytext {
+    font-size: small;
+}
+.undercon {
+    width: 380px;
+    height: 190px;
+}
+.podcast {
+    width: 200px;
+    height: 100px;
+    visibility: visible;
+}
+.contactpod {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+}
+.contactshown {
+}
+.timecast {
+    font-size: small;
+}
+.podtext {
+    font-size: small;
+}
+.cites {
+    font-size: small;
+}
+.timelinetext {
+    font-size: small;
+}
+.timelinegif {
+    width: 300px;
+    height: 240px;
+}
+.historytext {
+    min-width: 300px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
