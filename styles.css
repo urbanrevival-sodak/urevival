@@ -260,6 +260,13 @@ td li a {
 .timelinegif {
 }
 .undercon {
+    margin-left: 50px;
+    left: auto;
+    margin-right: 50px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    padding-left: auto;
+    padding-right: auto;
 }
 .pineridge {
 }
@@ -369,6 +376,9 @@ td li a {
 .undercon {
     width: 760px;
     height: 380px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: auto;
 }
 .rosebudimg {
     width: 720px;
@@ -537,6 +547,10 @@ h1 {
 .undercon {
     width: 380px;
     height: 190px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: auto;
+    padding-left: auto;
 }
 .podcast {
     width: 200px;
